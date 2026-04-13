@@ -1,0 +1,53 @@
+# Sample news events for PropAI
+[
+  {
+    "headline": "Delhi-Mumbai Expressway Phase 2 Approved for Expansion",
+    "content": "Ministry of Road Transport announces approval for Phase 2 of Delhi-Mumbai Expressway with focus on Sector 45 in Gurgaon. Construction expected to begin Q2 2025.",
+    "source_name": "Economic Times",
+    "source_url": "https://economictimes.indiatimes.com/",
+    "published_date": "2025-10-15T10:30:00Z",
+    "event_type": "Highway",
+    "status": "Approved",
+    "extracted_location": "Sector 45, Gurgaon"
+  },
+  {
+    "headline": "Bangalore Metro Extension to Whitefield Approved",
+    "content": "BMRCL approves 15 km metro extension to Whitefield IT corridor. Project funding secured. Expected operational by 2027.",
+    "source_name": "Moneycontrol",
+    "source_url": "https://www.moneycontrol.com/",
+    "published_date": "2025-10-12T14:45:00Z",
+    "event_type": "Metro",
+    "status": "Approved",
+    "extracted_location": "Whitefield, Bangalore"
+  },
+  {
+    "headline": "Major IT Park Coming to Hyderabad Hitec City",
+    "content": "Tech Giant announces 500,000 sq ft office complex in Hyderabad Hitec City. Expected to create 5000+ jobs.",
+    "source_name": "TOI",
+    "source_url": "https://www.timesofindia.com/",
+    "published_date": "2025-10-10T09:15:00Z",
+    "event_type": "Factory",
+    "status": "Under Construction",
+    "extracted_location": "Hitec City, Hyderabad"
+  },
+  {
+    "headline": "Bhubaneswar Airport Expansion Proposed",
+    "content": "State government proposes expansion of Biju Patnaik International Airport to handle 5 million passengers annually.",
+    "source_name": "PIB",
+    "source_url": "https://pib.gov.in/",
+    "published_date": "2025-10-08T11:20:00Z",
+    "event_type": "Airport",
+    "status": "Proposed",
+    "extracted_location": "Nayapalli, Bhubaneswar"
+  },
+  {
+    "headline": "Koramangala Tech Hub Gets Government Support",
+    "content": "Bangalore development authority allocates Rs 200 crore for infrastructure upgrade in Koramangala startup ecosystem.",
+    "source_name": "Economic Times",
+    "source_url": "https://economictimes.indiatimes.com/",
+    "published_date": "2025-10-05T16:30:00Z",
+    "event_type": "Government_Regulation",
+    "status": "Approved",
+    "extracted_location": "Koramangala, Bangalore"
+  }
+]

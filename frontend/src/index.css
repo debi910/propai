@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.zone-panel {
+  @apply fixed right-0 top-0 w-96 h-screen bg-white dark:bg-gray-800 shadow-lg transform transition-transform duration-300;
+}
+
+.zone-panel.hidden {
+  @apply translate-x-full;
+}
+
+.zone-panel.visible {
+  @apply translate-x-0;
+}

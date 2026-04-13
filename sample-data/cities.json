@@ -1,0 +1,27 @@
+# Sample cities data for PropAI
+[
+  {
+    "name": "Bangalore",
+    "state": "Karnataka",
+    "region": "South India",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "tier": "Tier-1"
+  },
+  {
+    "name": "Bhubaneswar",
+    "state": "Odisha",
+    "region": "East India",
+    "latitude": 20.2961,
+    "longitude": 85.8245,
+    "tier": "Tier-2"
+  },
+  {
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "region": "South India",
+    "latitude": 17.3850,
+    "longitude": 78.4867,
+    "tier": "Tier-1"
+  }
+]

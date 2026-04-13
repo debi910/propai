@@ -1,0 +1,230 @@
+# Sample zones with GeoJSON format for PropAI
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.65, 12.92],
+            [77.72, 12.92],
+            [77.72, 12.99],
+            [77.65, 12.99],
+            [77.65, 12.92]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Whitefield",
+        "description": "IT hub with metro connectivity",
+        "city_id": 1,
+        "city_name": "Bangalore",
+        "growth_score": 78,
+        "risk_level": "Green",
+        "time_horizon": "3-5 years",
+        "highway_score": 0,
+        "metro_score": 40,
+        "airport_score": 0,
+        "factory_score": 35,
+        "approved_bonus": 20,
+        "tier_bonus": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.60, 12.93],
+            [77.65, 12.93],
+            [77.65, 12.98],
+            [77.60, 12.98],
+            [77.60, 12.93]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Koramangala",
+        "description": "Startup ecosystem with government support",
+        "city_id": 1,
+        "city_name": "Bangalore",
+        "growth_score": 62,
+        "risk_level": "Yellow",
+        "time_horizon": "5-8 years",
+        "highway_score": 20,
+        "metro_score": 0,
+        "airport_score": 0,
+        "factory_score": 0,
+        "approved_bonus": 20,
+        "tier_bonus": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.70, 12.88],
+            [77.75, 12.88],
+            [77.75, 12.95],
+            [77.70, 12.95],
+            [77.70, 12.88]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Electronics City",
+        "description": "Industrial area with manufacturing hub",
+        "city_id": 1,
+        "city_name": "Bangalore",
+        "growth_score": 58,
+        "risk_level": "Yellow",
+        "time_horizon": "5-8 years",
+        "highway_score": 30,
+        "metro_score": 0,
+        "airport_score": 0,
+        "factory_score": 25,
+        "approved_bonus": 0,
+        "tier_bonus": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [85.70, 20.28],
+            [85.78, 20.28],
+            [85.78, 20.35],
+            [85.70, 20.35],
+            [85.70, 20.28]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Nayapalli",
+        "description": "Airport expansion zone",
+        "city_id": 2,
+        "city_name": "Bhubaneswar",
+        "growth_score": 52,
+        "risk_level": "Yellow",
+        "time_horizon": "5-8 years",
+        "highway_score": 0,
+        "metro_score": 0,
+        "airport_score": 15,
+        "factory_score": 0,
+        "approved_bonus": 15,
+        "tier_bonus": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [85.82, 20.29],
+            [85.88, 20.29],
+            [85.88, 20.36],
+            [85.82, 20.36],
+            [85.82, 20.29]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Chandrasekharpur",
+        "description": "Mixed residential zone",
+        "city_id": 2,
+        "city_name": "Bhubaneswar",
+        "growth_score": 38,
+        "risk_level": "Red",
+        "time_horizon": "8-12 years",
+        "highway_score": 0,
+        "metro_score": 0,
+        "airport_score": 0,
+        "factory_score": 0,
+        "approved_bonus": 0,
+        "tier_bonus": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [78.35, 17.38],
+            [78.42, 17.38],
+            [78.42, 17.45],
+            [78.35, 17.45],
+            [78.35, 17.38]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Hitec City",
+        "description": "Premium IT corridor with major corporate presence",
+        "city_id": 3,
+        "city_name": "Hyderabad",
+        "growth_score": 85,
+        "risk_level": "Green",
+        "time_horizon": "3-5 years",
+        "highway_score": 25,
+        "metro_score": 40,
+        "airport_score": 0,
+        "factory_score": 35,
+        "approved_bonus": 20,
+        "tier_bonus": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [78.40, 17.43],
+            [78.48, 17.43],
+            [78.48, 17.50],
+            [78.40, 17.50],
+            [78.40, 17.43]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Gachibowli",
+        "description": "Emerging financial district",
+        "city_id": 3,
+        "city_name": "Hyderabad",
+        "growth_score": 68,
+        "risk_level": "Yellow",
+        "time_horizon": "5-8 years",
+        "highway_score": 20,
+        "metro_score": 25,
+        "airport_score": 0,
+        "factory_score": 25,
+        "approved_bonus": 0,
+        "tier_bonus": 10
+      }
+    }
+  ]
+}
