@@ -15,7 +15,6 @@
     "react-router-dom": "^6.20.0",
     "axios": "^1.6.0",
     "mapbox-gl": "^2.15.0",
-    "three": "^r128",
     "lucide-react": "^0.292.0"
   },
   "devDependencies": {
