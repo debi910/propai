@@ -34,9 +34,18 @@ app = FastAPI(
 
 # CORS middleware
 FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:3000")
+NETLIFY_URL = os.getenv("NETLIFY_URL", "https://propai.netlify.app")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[FRONTEND_URL, "http://localhost:3000", "http://localhost:5173"],
+    allow_origins=[
+        FRONTEND_URL,
+        NETLIFY_URL,
+        "http://localhost:3000",
+        "http://localhost:5173",
+        "https://propai.netlify.app",
+        "https://*.netlify.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
